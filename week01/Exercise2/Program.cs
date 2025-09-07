@@ -11,42 +11,30 @@ class Program
         Console.Write("What is your grade? ");
         string totalGrade = Console.ReadLine();
         int grade = int.Parse(totalGrade);
+        
         if (grade >= 90)
         {
-            Console.WriteLine("Your grade is: A");
+            Console.WriteLine("A");
         }
         else if (grade >= 80)
         {
-            Console.WriteLine("Your grade is: B");
+            Console.WriteLine("B");
         }
         else if (grade >= 70)
         {
-            Console.WriteLine("Your grade is: C");
+            Console.WriteLine("C");
         }
         else if (grade >= 60)
         {
-            Console.WriteLine("Your grade is: D");
+            Console.WriteLine("D");
         }
         else if (grade < 60)
         {
-            Console.WriteLine("Your grade is: F");
+            Console.WriteLine("F");
         }
 
         int gradeSign = grade % 10;
     
-        
-        if (gradeSign >= 7)
-        {
-            Console.WriteLine("+");
-        }
-        else if (gradeSign < 3)
-        {
-            Console.WriteLine("-");
-        }
-        else
-        {
-            Console.WriteLine("");
-        }
         Console.WriteLine($"Your grade is {grade}");
 
         if (grade >= 70)

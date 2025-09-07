@@ -11,7 +11,7 @@ class Program
         int magicNumber = int.Parse(Console.ReadLine());
 
         Random randomGenerator = new Random();
-        int number = randomGenerator.Next(1, 100);
+        int number = randomGenerator.Next(1, 101);
 
         int guess = -1;
         while (guess != magicNumber)
