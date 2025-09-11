@@ -7,8 +7,8 @@ class Program
         DisplayWelcomeMessage();
 
         string name = PromptUserName();
-        int favouriteNumber = PromptFavouriteNumber();
-        int square = SquareOfNumber(favouriteNumber);
+        int favoriteNumber = PromptFavoriteNumber();
+        int square = SquareOfNumber(favoriteNumber);
 
         DisplayResult(name, square);
     }
@@ -24,9 +24,9 @@ class Program
         return Console.ReadLine();
     }
 
-    static int PromptFavouriteNumber()
+    static int PromptFavoriteNumber()
     {
-        Console.Write("Please enter your favourite number: ");
+        Console.Write("Please enter your favorite number: ");
         return int.Parse(Console.ReadLine());
     }
 
