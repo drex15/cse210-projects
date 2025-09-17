@@ -54,7 +54,6 @@ class Program
             else
             {
                 Console.WriteLine("I'm afraid your option is invalid. Try another option.");
-
             }
         }
     }
