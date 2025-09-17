@@ -19,6 +19,7 @@ public class Journal
         foreach (var entry in entries)
         {
             Console.WriteLine(entry);
+            Console.WriteLine(new string('_', 40));
         }
     }
 
